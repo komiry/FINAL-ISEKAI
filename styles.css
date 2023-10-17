@@ -15,17 +15,62 @@ body {
 }
 
 .indexcontainer {
-    background-image: url('./assets/ryan.png');
-    background-size: cover; 
-    background-position: center center;
-    height: 300px; 
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: black;
+
+    padding-left: 20%;
+
     text-align: center;
-    color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
+
+ 
+
+.intro img{
+
+    width: 180px;
+
+    height: 180px;
+
+    display: block;
+
+    margin: 20px auto;
+
+    border-radius: 20%;
+
+}
+
+ 
+
+h1{
+
+    margin: 20px 0px 20px;
+
+    font-size: 75px;
+
+    text-align: center;
+
+}
+
+ 
+
+h3{
+
+    font-size: 25px;
+
+    margin-bottom: 50px;
+
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
 
 .container {
     color: rgba(0, 0, 0, 0.5);
