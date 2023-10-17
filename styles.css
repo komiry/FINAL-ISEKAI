@@ -17,47 +17,12 @@ body {
     border-radius: 8px;
 }
 
-.intro {
-    margin-top: 50px;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-    color: black;
-    padding-left: 20%;
+.indexcontainer {
+    margin-top: 5em;
+    margin-left: 0px;
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-
-.intro img{
-    width: 180px;
-    height: 180px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 20%;
-
-}
-
-h1{
-    color: black;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-    text-align: center;
-
-}
-
-h3{
-    color: black;
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-
-h4{
-    color: black;
-    letter-spacing: 2px;
-    font-size: 20px;
-    text-align: center;
-}
-
 
 .container {
     color: rgba(0, 0, 0, 0.5);

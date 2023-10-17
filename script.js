@@ -14,195 +14,6 @@ const closeMenuButton = document.querySelector('#close-menu');
 menuToggle.addEventListener('click', openSlideInMenu);
 closeMenuButton.addEventListener('click', closeSlideInMenu);
 
-const books = [
-    {
-        name: "Communication 1: Totally Normal",
-        pdfLink: "books/CHAP1.pdf"
-    },
-    {
-        name: "Communication 2: Peaceful",
-        pdfLink: "books/CHAP2.pdf"
-    },
-    {
-        name: "Communication 3: A Suspicious Individual",
-        pdfLink: "books/CHAP3.pdf"
-    },
-    {
-        name: "Communication 4: Not Very Good",
-        pdfLink: "books/CHAP4.pdf"
-    },
-    {
-        name: "Communication 5: Wanting to Talk",
-        pdfLink: "books/CHAP5.pdf"
-    },
-    {
-        name: "Communication 6: Wanting to Apologize",
-        pdfLink: "books/CHAP6.pdf"
-    },
-    {
-        name: "Communication 7: One More Time",
-        pdfLink: "books/CHAP7.pdf"
-    },
-    {
-        name: "Communication 8: Scary",
-        pdfLink: "books/CHAP8.pdf"
-    },
-    {
-        name: "Communication 9: Old Friends",
-        pdfLink: "books/CHAP9.pdf"
-    },
-    {
-        name: "Communication 10: Dark Past",
-        pdfLink: "books/CHAP10.pdf"
-    },
-    {
-        name: "Communication 11: Not a Killer",
-        pdfLink: "books/CHAP11.pdf"
-    },
-    {
-        name: "Communication 12: Errand Girl",
-        pdfLink: "books/CHAP12.pdf"
-    },
-    {
-        name: "Communication 13: First Errand",
-        pdfLink: "books/CHAP13.pdf"
-    },
-    {
-        name: "Communication 14: Nervous",
-        pdfLink: "books/CHAP14.pdf"
-    },
-    {
-        name: "Communication 15: Going to School",
-        pdfLink: "books/CHAP15.pdf"
-    },
-    {
-        name: "Communication 16: Cell Phone",
-        pdfLink: "books/CHAP16.pdf"
-    },
-    {   name: "Communication 17: Class Council Election",         
-        pdfLink: "books/CHAP17.pdf"
-    },
-    {
-        name: "Communication 18: Accidental Phone Call",
-        pdfLink: "books/CHAP18.pdf"
-    },
-    {
-        name: "Communication 19: Saito",
-        pdfLink: "books/CHAP19.pdf"
-    },
-    {
-        name: "Communication 20: The Physical",
-        pdfLink: "books/CHAP20.pdf"
-    },
-    {
-        name: "Communication 21: Fitness Test",
-        pdfLink: "books/CHAP21.pdf"
-    },
-    {
-        name: "Communication 22: Home Visit",
-        pdfLink: "books/CHAP22.pdf"
-    },
-    {
-        name: "Communication 23: Ren",
-        pdfLink: "books/CHAP23.pdf"
-    },
-    {
-        name: "Communication 24: Ren, Part 2",
-        pdfLink: "books/CHAP24.pdf"
-    },
-    {
-        name: "Communication 25: Ren, Part 3",
-        pdfLink: "books/CHAP25.pdf"
-    },
-    {
-        name: "Communication 26: Ren, Part 4",
-        pdfLink: "books/CHAP26.pdf"
-    },
-    {
-        name: "Communication 27: Summer Uniform",
-        pdfLink: "books/CHAP27.pdf"
-    },
-    {
-        name: "Communication 28: Soft Noodles, No Grease, Easy on the Ginger and Veggies",
-        pdfLink: "books/CHAP28.pdf"
-    },
-    {
-        name: "Communication 29: Jokes",
-        pdfLink: "books/CHAP29.pdf"
-    },
-    {
-        name: "Communication 30: Rain",
-        pdfLink: "books/CHAP30.pdf"
-    },
-    {
-        name: "Communication 31: Blood Contract",
-        pdfLink: "books/CHAP31.pdf"
-    },
-    {
-        name: "Communication 32: Tadano in Junior High",
-        pdfLink: "books/CHAP32.pdf"
-    },
-    {
-        name: "Communication 33: Shopping",
-        pdfLink: "books/CHAP33.pdf"
-    },
-    {
-        name: "Communication 34: Beauty Salon",
-        pdfLink: "books/CHAP34.pdf"
-    },
-    {
-        name: "Communication 35: Worries",
-        pdfLink: "books/CHAP35.pdf"
-    },
-    {
-        name: "Communication 36: Studying for Tests",
-        pdfLink: "books/CHAP36.pdf"
-    },
-    {
-        name: "Communication 37: Summer Vacation",
-        pdfLink: "books/CHAP37.pdf"
-    },
-    {
-        name: "Communication 38: Meeting Up",
-        pdfLink: "books/CHAP38.pdf"
-    },
-    {
-        name: "Communication 39: The Pool",
-        pdfLink: "books/CHAP39.pdf"
-    },   
-    {
-        name: "Communication 40: Just a Scrape",
-        pdfLink: "books/CHAP40.pdf"
-    },
-    {
-        name: "CCommunication 41: The Library",
-        pdfLink: "books/CHAP41.pdf"
-    },
-    {
-        name: "Communication 42: Shaved Ice",
-        pdfLink: "books/CHAP42.pdf"
-    },
-    {
-        name: "Communication 43: Part-Time Job",
-        pdfLink: "books/CHAP43.pdf"
-    },   
-    {
-        name: "Communication 44: The Park",
-        pdfLink: "books/CHAP44.pdf"
-    },   
-    {
-        name: "Communication 45: Celebrating Obon",
-        pdfLink: "books/CHAP45.pdf"
-    },
-    {
-        name: "Communication 46: Festival",
-        pdfLink: "books/CHAP46.pdf"
-    },
-    {
-        name: "Communication 47: Festival, Part 2",
-        pdfLink: "books/CHAP47.pdf"
-    }
-];
 
 function listBooks(books) {
     const table = document.querySelector('#book-list');
@@ -598,3 +409,27 @@ function createProjectCards() {
     });
 }
 createProjectCards();
+
+const tableBody = document.getElementById("book-list");
+const animeData = [
+    { name: "Anime 1", coverUrl: "image_url_1.jpg" },
+    { name: "Anime 2", coverUrl: "image_url_2.jpg" },
+
+];
+
+
+function addRowsToTable(data) {
+    data.forEach((anime) => {
+        const row = tableBody.insertRow();
+        const nameCell = row.insertCell(0);
+        const coverCell = row.insertCell(1);
+
+        nameCell.textContent = anime.name;
+        const img = document.createElement("img");
+        img.src = anime.coverUrl;
+        img.alt = anime.name;
+        img.className = "subject-image";
+        coverCell.appendChild(img);
+    });
+}
+addRowsToTable(animeData);
