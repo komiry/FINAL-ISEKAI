@@ -14,16 +14,30 @@ body {
     padding: 10px;
 }
 
-.indexcontainer {
-    margin-top: 5em;
-    margin-left: 0px;
-    color: rgba(0, 0, 0, 0.5);
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: black;
+    padding-left: 20%;
     text-align: center;
 }
 
-.container {
-    color: rgba(0, 0, 0, 0.5);
+h1{
+    margin: 20px 0px 20px;
+    font-size: 75px;
     text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .menu-toggle {
