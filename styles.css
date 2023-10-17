@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/1204623.jpg');
+    background-image: url('./assets/3431.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -123,6 +123,7 @@ footer a {
     font-size: 24px;
 }
 
+/* Contacts */
 .developer-card {
     display: flex;
     align-items: center;
@@ -132,6 +133,7 @@ footer a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     max-width: 400px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .developer-image {
@@ -166,6 +168,8 @@ footer a {
     margin-right: 10px;
     font-size: 18px;
 }
+
+
 
 
 .slide-in-menu .social-media-link {
