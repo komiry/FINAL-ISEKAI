@@ -87,3 +87,12 @@ function playMusic(audioId) {
 }
 
 
+function playMusic(audioId) {
+    const audio = document.getElementById(audioId);
+    audio.play();
+}
+
+function stopMusic(audioId) {
+    const audio = document.getElementById(audioId);
+    audio.stop();
+}
