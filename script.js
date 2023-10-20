@@ -85,8 +85,6 @@ function playMusic(audioId) {
     const audio = document.getElementById(audioId);
     audio.play();
 }
-
-
 function playMusic(audioId) {
     const audio = document.getElementById(audioId);
     audio.play();

@@ -26,12 +26,27 @@ body {
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .intro img {
     width: 180px;
     height: 180px;
     margin: 20px auto;
     border-radius: 20%;
     display: flex;
+=======
+.bo {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    float: right;
+}
+
+.bo2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    float: left;
+>>>>>>> 01bcace1e4e711275ca6cffb8cc41ad08aa64862
 }
 
 
