@@ -79,7 +79,11 @@ function addRowsToTable(data) {
         coverCell.appendChild(img);
     });
 }
-
 addRowsToTable(animeData);
+
+function playMusic(audioId) {
+    const audio = document.getElementById(audioId);
+    audio.play();
+}
 
 
