@@ -26,46 +26,21 @@ body {
     justify-content: center;
 }
 
-.fighting {
-    padding-left: 3px;
-    height: 30px;
-    width: 30px;
-
-}
-
-.chika{
-    padding-right: 3px;
-}
-
-.ggg{
-    padding-top: 1px;
-    padding-right: 20%;
-}
-
-.dance{
-    padding-left: 0%;
-}
-
-.intro img {
-    width: 150px; 
-    height: auto;
-    
-}
-
-.intro img {
-    width: 180px;
-    height: 180px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 20%;
-}
-
-.ggg {
+.bo {
     width: 200px;
     height: 200px;
     margin: 20px 0;
     float: right;
 }
+
+.bo2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    float: left;
+}
+
+
 span{
     color: #f9004d;
 }
