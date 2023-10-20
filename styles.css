@@ -1,5 +1,5 @@
 body {
-    background-image: url('./assets/run.gif');
+    background-image: url('./assets/anime-window.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,8 +26,28 @@ body {
     justify-content: center;
 }
 
+.fighting {
+    padding-left: 3px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.chika{
+    padding-right: 3px;
+}
+
+.ggg{
+    padding-top: 1px;
+    padding-right: 20%;
+}
+
+.dance{
+    padding-left: 0%;
+}
+
 .intro img {
-    width: 250px; 
+    width: 150px; 
     height: auto;
     
 }
