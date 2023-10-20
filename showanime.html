@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show Books</title>
+    <title>Fav Anime</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -26,8 +26,8 @@
         </li>
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="showbooks.html">ANIME WIKI</a></li>
-        <li><a href="sortbooks.html">CHARACTERS</a></li>
+        <li><a href="showanime.html">ANIME WIKI</a></li>
+        <li><a href="favanime.html">CHARACTERS</a></li>
         <li><a href="contact.html">CONTACTS</a></li>
         <li><a href="projects.html">PROJECTS</a></li>
     </ul>
@@ -43,16 +43,43 @@
             </thead>
             <tbody id="book-list">
                 <tr>
-                    <td>Classrooom of The Elites</td>
-                    <td><img src="assets/classroom.webp" alt="Image 1" class="subject-image"></td>
+                    <td>Classroom of The Elites</td>
+                    <td>
+                        <img src="assets/classroom.webp" alt="Image 1" class="subject-image">
+                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
+                    </td>
+                    <td>
+                        <audio id="classroomAudio" controls style="display: none">
+                            <source src="music/an1.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
                 </tr>
                 <tr>
                     <td>Komi Can't Communicate</td>
-                    <td><img src="assets/komi.webp" alt="Image 2" class="subject-image"></td>
+                    <td>
+                        <img src="assets/komi.webp" alt="Image 2" class="subject-image">
+                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
+                    </td>
+                    <td>
+                        <audio id="classroomAudio" controls style="display: none">
+                            <source src="music/an2.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
                 </tr>
                 <tr>
                     <td>One Piece</td>
-                    <td><img src="assets/onepiece.webp" alt="Image 3" class="subject-image"></td>
+                    <td>
+                        <img src="assets/onepiece.webp" alt="Image 2" class="subject-image">
+                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
+                    </td>
+                    <td>
+                        <audio id="classroomAudio" controls style="display: none">
+                            <source src="music/an3.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
                 </tr>
                 <tr>
                     <td>Miss Kobayashi's Dragon Maid</td>
