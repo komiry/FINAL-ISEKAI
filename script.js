@@ -84,10 +84,7 @@ addRowsToTable(animeData);
 function playMusic(audioId) {
     const audio = document.getElementById(audioId);
     audio.play();
-<<<<<<< HEAD
 }
-
-
 function playMusic(audioId) {
     const audio = document.getElementById(audioId);
     audio.play();
@@ -97,6 +94,4 @@ function stopMusic(audioId) {
     const audio = document.getElementById(audioId);
     audio.pause();
     audio.currentTime = 0;
-=======
->>>>>>> run
 }
