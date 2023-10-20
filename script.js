@@ -94,5 +94,6 @@ function playMusic(audioId) {
 
 function stopMusic(audioId) {
     const audio = document.getElementById(audioId);
-    audio.stop();
+    audio.pause();
+    audio.currentTime = 0;
 }

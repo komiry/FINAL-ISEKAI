@@ -40,8 +40,12 @@ body {
     border-radius: 20%;
 }
 
-
-
+.ggg {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    float: right;
+}
 span{
     color: #f9004d;
 }
