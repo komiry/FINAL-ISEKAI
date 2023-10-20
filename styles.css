@@ -20,8 +20,25 @@ body {
 .indexcontainer {
     margin-top: 5em;
     margin-left: 0px;
-    color: rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+.indexcontainer img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 50px;
+    color: #202225;
+}
+
+.container img {
+display: block;
+margin: 20px auto;
+width: 192px;
+height: 192px;
 }
 
 .container {
