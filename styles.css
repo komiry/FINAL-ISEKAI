@@ -17,21 +17,68 @@ body {
     border-radius: 8px;
 }
 
-.indexcontainer {
-    margin-top: 5em;
-    margin-left: 0px;
+.intro{
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: black;
+
+    padding-left: 20%;
+
     text-align: center;
+
 }
 
-.indexcontainer img {
-    width: 150px; 
-    height: 150px;
-    border-radius: 8px;
+ 
+
+.intro img{
+
+    width: 180px;
+
+    height: 180px;
+
+    display: block;
+
+    margin: 20px auto;
+
+    border-radius: 20%;
+
 }
+
+ 
 
 h1{
-    font-size: 50px;
-    color: #202225;
+
+    margin: 20px 0px 20px;
+
+    font-size: 75px;
+
+    text-align: center;
+
+}
+
+ 
+
+h3{
+
+    font-size: 25px;
+
+    margin-bottom: 50px;
+
+}
+
+ 
+
+h4{
+
+    letter-spacing: 2px;
+
+    font-size: 20px;
+
 }
 
 .container img {
