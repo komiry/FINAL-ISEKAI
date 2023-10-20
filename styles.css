@@ -2,9 +2,9 @@ body {
     background-image: url('./assets/anime-window.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     color: #ffffff;
 }
+
 
 .header {
     display: flex;
@@ -20,26 +20,33 @@ body {
     top: 40%;
     transform: translateY(-50%);
     color: black;
-    padding-left: 20%;
+    padding-left: 17%;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
     justify-content: center;
 }
 
-.bo {
+.bo .bo2 {
     width: 200px;
     height: 200px;
-    margin: 20px 0;
+    float: left;
+}
+.bo5 {
+    width: 200px;
+    height: 200px;
     float: right;
 }
 
-.bo2 {
-    width: 200px;
-    height: 200px;
+.bo,
+.bo2,
+.bo3,
+.bo4,
+.bo5,
+.bo6 {
+    width: 2in;
+    height: 2in;
     margin: 20px 0;
-    float: left;
 }
-
 
 span{
     color: #f9004d;
@@ -91,6 +98,7 @@ h4 {
     list-style: none;
     display: flex;
     align-items: center;
+    
 }
 
 .nav-links li {
