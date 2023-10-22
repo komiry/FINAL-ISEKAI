@@ -274,6 +274,7 @@ td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ccc;
+    font-size: 20px;
 }
 
 tr:hover {
