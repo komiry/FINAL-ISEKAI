@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 body {
     background-image: url('./assets/anime-window.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -78,6 +81,15 @@ h3 {
 
 h4 {
     letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h5{
+    color: black;
+}
+
+h6{
+    color: black;
     font-size: 20px;
 }
 
@@ -235,29 +247,17 @@ footer a {
     font-size: 18px;
 }
 
-.slide-in-menu .social-media-link {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.slide-in-menu .social-media-link i {
-    margin-left: 135px;
-}
-
-.slide-in-menu .social-media-link a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 table {
     margin-left: 100px;
-    width: 1010px;
+    width: 900px;
     border-collapse: collapse;
     border-spacing: 0;
     border: 2px solid #333;
     margin-bottom: 20px;
-    font-size: 16px;
+}
+
+.container td{
+    font-size: 20px;
 }
 
 th {
@@ -335,54 +335,6 @@ tr:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.semester-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.semester-card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    height: 250px;
-    width: 200px;
-    color: #ccc;
-    background-color: transparent;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background-color 0.2s, transform 0.2s;
-    margin: 40px 20px;
-    margin-left: 250px;
-}
-
-.semester-card:hover {
-    transform: scale(1.05);
-}
-
-.semester-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.semester-name {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.semester-card a {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-}
-
-@media (max-width: 700px) {
-    .semester-card {
-        flex: 0 1 100%;
-        margin-right: 0;
-    }
-}
-
 .project-card {
     width: 288px;
     height: 288px;
@@ -406,6 +358,7 @@ tr:hover {
 
 .project-card h3 {
     margin: 15px 0;
+    color: black;
 }
 
 .project-card a {
@@ -425,15 +378,9 @@ tr:hover {
 }
 
 @media screen and (max-width: 767px) {
-    .nav-links {
-      position: fixed;
-      top: 0.1rem;
-      right: -100%;
-      width: 80%;
-      height: 100%;
-      padding: 2rem;
-      background-color: black;
-      transition: .5s;
+    .header{
+        padding-right: 900px;
+        margin-right: 900px;
     }
   
     .intro{
@@ -465,9 +412,7 @@ tr:hover {
         font-style: 10px;
     }
   
-    .header{
-        display: flex;
-    }
+   
   
     .project-card{
         height: 90px;
@@ -475,13 +420,15 @@ tr:hover {
     }
   
     table {
-        margin-left: 55px;
-        width: 101px;
-        margin-bottom: 20px;
-        font-size: 10px;
-        margin-left: 30px;
+        width: 300px;
+        font-size: 20px;
+        margin-left: 80px;
     }
     
+    td{
+        font-size: 40px;
+    }
+
     .subject-image{
         height: 5px;
     }
@@ -514,17 +461,10 @@ tr:hover {
     }
   }
   
-  @media screen and (max-width: 320px) {
-    .nav-links {
-        position: fixed;
-        top: 0.1rem;
-        right: -100%;
-        width: 80%;
-        height: 100%;
-        padding: 2rem;
-        background-color: black;
-        transition: .5s;
-      }
+@media screen and (max-width: 320px) {
+    .header{
+        padding-right: 300px;
+    }
   
       .intro{
          margin-top: 100px;
@@ -565,8 +505,16 @@ tr:hover {
       }
   
       table {
-          margin-left: -10px;
+          margin-left: 1px;
           font-size: 10px;
+      }
+
+      td{
+        font-size: 10px;
+      }
+
+      h5{
+        font-size: 15px;
       }
       
       .subject-image{
@@ -583,25 +531,32 @@ tr:hover {
       }
      
       .developer-info h2 {
-          font-size: 10px;
+          font-size: 15px;
           margin: 0;
           
       }
       
       .developer-info p {
-          font-size: 7px;
+          font-size: 13px;
       }
       
       .developer-info a {
           text-decoration: none;
-          font-size: 8px;
+          font-size: 10px;
       }
       .developer-image img{
           max-width: 120px;
       }
+
+      .project-card img{
+        max-width: 75px;
+      }
+      .project-card h3{
+        font-size: 13px;
+      }
   }
   
-  @media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) {
     .nav-links {
         position: fixed;
         top: 0.1rem;
@@ -653,14 +608,19 @@ tr:hover {
       .project-card h3{
         font-size: 15px;
       }
-  
-      table {
-          margin-left: 55px;
-          width: 1010px;
-          margin-bottom: 20px;
-          font-size: 10px;
-          margin-left: -3px;
+      
+      h5{
+        font-size: 20px;
       }
+      table {
+          width: 400px;
+          margin-bottom: 20px;
+          font-size: 5px;
+          margin-left: 80px;
+          font-size:10px;
+      }
+      
+    }
       
       .developer-card{
           display: flex;
@@ -688,9 +648,9 @@ tr:hover {
       .developer-image img{
           max-width: 150px;
       }
-  }
   
-  @media screen and (min-width: 768px) {
+  
+@media screen and (min-width: 768px) {
     .nav-links {
         position: fixed;
         top: 0.1rem;
@@ -740,12 +700,16 @@ tr:hover {
           width: 90px;
       }
   
+      h5{
+        font-size: 30px;
+
+      }
+
       table {
-          margin-left: 5px;
-          width: 700px;
+          width: 550px;
           margin-bottom: 20px;
           font-size: 20px;
-          margin-left: 29.5px;
+          margin-left: 115px;
       }
   
       .developer-card{
@@ -860,3 +824,9 @@ tr:hover {
           max-width: 150px;
       }
   }
+
+@media screen (min-width: 1025px){
+    table{
+        width: 900px;
+    }
+}

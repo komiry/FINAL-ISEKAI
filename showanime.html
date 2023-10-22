@@ -33,7 +33,7 @@
     </ul>
     <div id="books-container"></div>
     <div class="container">
-        <h1>FAVORITE ANIMES AT ALL TIME !!!</h1>
+        <h6>FAVORITE ANIMES AT ALL TIME !!!</h6>
         <table id="show-book-list">
             <thead>
                 <tr>
@@ -43,77 +43,85 @@
             </thead>
             <tbody id="book-list">
                 <tr>
-                    <td>Classroom of The Elites</td>
+                    <td><span>Classroom of The Elites</span>
+                        The Japanese government has established the Tokyo Metropolitan Advanced Nurturing School, dedicated to instruct and foster the generation of people that will support the country in the future. The students are given a high degree of freedom in order to closely mimic real life. <span>Play Music</span>
+                        <button onclick="playMusic('classroomAudio1')"><i class="fas fa-play"></i></button>
+                        <button onclick="stopMusic('classroomAudio1')"><i class="fas fa-stop"></i></button>
+                        <audio id="classroomAudio1" controls style="display: none">
+                        <source src="music/an1.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
                     <td>
                         <img src="assets/classroom.webp" alt="Image 1" class="subject-image">
-                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
-                    </td>
-                    <td>
-                        <audio id="classroomAudio" controls style="display: none">
-                            <source src="music/an1.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
                     </td>
                 </tr>
                 <tr>
-                    <td>Komi Can't Communicate</td>
+                    <td><span>Komi Can't Communicate</span>
+                        Komi, a high school Madonna, appears to be cold and above her classmates. However, in reality, her disposition is due to being unable to communicate with others. Tadano, Komi's classmate, is good at reading situations and quickly comes to realize that Komi has a communication disorder. <span>Play Music</span>
+                        <button onclick="playMusic('classroomAudio2')"><i class="fas fa-play"></i></button>
+                        <button onclick="stopMusic('classroomAudio2')"><i class="fas fa-stop"></i></button>
+                        <audio id="classroomAudio2" controls style="display: none">
+                        <source src="music/an2.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
                     <td>
                         <img src="assets/komi.webp" alt="Image 2" class="subject-image">
-                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
-                    </td>
-                    <td>
-                        <audio id="classroomAudio" controls style="display: none">
-                            <source src="music/an2.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
                     </td>
                 </tr>
                 <tr>
-                    <td>One Piece</td>
-                    <td>
-                        <img src="assets/onepiece.webp" alt="Image 2" class="subject-image">
-                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
-                    </td>
-                    <td>
-                        <audio id="classroomAudio" controls style="display: none">
-                            <source src="music/an3.mp3" type="audio/mpeg">
+                    <td><span>One Piece</span>
+                        Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates! <span>Play Music</span>
+                        <button onclick="playMusic('classroomAudio3')"><i class="fas fa-play"></i></button>
+                        <button onclick="stopMusic('classroomAudio3')"><i class="fas fa-stop"></i></button>
+                        <audio id="classroomAudio3" controls style="display: none">
+                        <source src="music/an33.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                     </td>
-                </tr>
-                <tr>
-                    <td>Miss Kobayashi's Dragon Maid</td>
                     <td>
-                        <img src="assets/kobayashi.png" alt="Image 4" class="subject-image">
-                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
-                    </td>
-                        <audio id="classroomAudio" controls style="display: none">
-                             <source src="music/an4.mp3" type="audio/mpeg">
-                             Your browser does not support the audio element.
-                        </audio>
+                        <img src="assets/onepiece.webp" alt="Image 3" class="subject-image">
                     </td>
                 </tr>
-                <tr>
-                    <td>The Disastrous Life of Saiki K.</td>
-                    <td>
-                        <img src="assets/saiki.webp" alt="Image 5" class="subject-image">
-                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
-                    </td>
-                        <audio id="classroomAudio" controls style="display: none">
-                            <source src="music/an5.mp3" type="audio/mpeg">
+                    <td><span>Ms. Kobayashi Dragon Maid</span>
+                        She is a 25-year-old normal programmer and office worker who suddenly finds herself living with a dragon named Tohru after removing a divine sword from it on a drunken night. While typically stoic and kind-hearted, she can get wild when drunk. <span>Play Music</span>
+                        <button onclick="playMusic('classroomAudio4')"><i class="fas fa-play"></i></button>
+                        <button onclick="stopMusic('classroomAudio4')"><i class="fas fa-stop"></i></button>
+                        <audio id="classroomAudio4" controls style="display: none">
+                        <source src="music/an4.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
-                </tr>
-                <tr>
-                    <td>Erased</td>
-                    <td>
-                        <img src="assets/erased.png" alt="Image 6" class="subject-image">
-                        <button onclick="playMusic('classroomAudio')"><i class="fas fa-play"></i></button>
                     </td>
-                        <audio id="classroomAudio" controls style="display: none">
-                            <source src="music/an6.mp3" type="audio/mpeg">
+                    <td>
+                        <img src="./assets/kobayashi.png" alt="Image 3" class="subject-image">
+                    </td>
+                </tr>
+                    <td><span>Disastrous Life of Saiki K</span>
+                        A high school student with powerful psychic abilities tries to live an ordinary life by keeping his true nature a secret from his many quirky classmates and anyone else he comes across. <span>Play Music</span>
+                        <button onclick="playMusic('classroomAudio5')"><i class="fas fa-play"></i></button>
+                        <button onclick="stopMusic('classroomAudio5')"><i class="fas fa-stop"></i></button>
+                        <audio id="classroomAudio5" controls style="display: none">
+                        <source src="music/an5.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
+                    </td>
+                    <td>
+                        <img src="./assets/saiki.webp" alt="Image 3" class="subject-image">
+                    </td>
+                </tr>
+                    <td><span>Erased</span>
+                        Erased follows the Story of Satoru Fujinuma who is a 29 year old aspiring manga artist with the ability to travel backwards in time to prevent terrible things from happening. After the murder of a loved on he is launched back further in time than he has ever gone to prevent the tragedy from taking place. <span>Play Music</span>
+                        <button onclick="playMusic('classroomAudio6')"><i class="fas fa-play"></i></button>
+                        <button onclick="stopMusic('classroomAudio6')"><i class="fas fa-stop"></i></button>
+                        <audio id="classroomAudio6" controls style="display: none">
+                        <source src="./music/an6.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
+                    <td>
+                        <img src="./assets/erased.png" alt="Image 3" class="subject-image">
+                    </td>
                 </tr>
             </tbody>
         </table>
