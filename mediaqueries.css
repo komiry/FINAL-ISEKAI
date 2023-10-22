@@ -39,8 +39,13 @@
   margin-left: 5px;
   }
 
-  .container h1{
+  .container h1,
+  .container h2{
     font-size: 15px;
+  }
+
+  .container p{
+    font-size: 10px;
   }
 
   td{
