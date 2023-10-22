@@ -95,3 +95,4 @@ function stopMusic(audioId) {
     audio.pause();
     audio.currentTime = 0;
 }
+
