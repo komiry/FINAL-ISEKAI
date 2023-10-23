@@ -1,7 +1,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     const typed = new Typed(".typed-text", {
-      strings: [" You're being Isekai!!"],
+      strings: [" YOU'RE BEING ISEKAI!!!"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,

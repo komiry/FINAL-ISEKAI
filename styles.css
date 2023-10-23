@@ -109,6 +109,9 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+span{
+color: #f54545;
+}
 
 .header {
     display: flex;
