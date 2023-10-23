@@ -1,4 +1,134 @@
 
+
+@media only screen and (max-width: 1050px) {
+
+  .section-1::before {
+      height: 95vh;
+      width: 100%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .section-1::before { height: 95vh; }
+  .gif {
+      height: 250px;
+      width: auto;
+      border-radius: 100%;
+  }
+  .section-2-dim { height: 60vw; }
+}
+
+@media only screen and (max-width: 850px) {
+  .f-s-2rem {
+      font-size: 3rem;
+      font-weight: 550;
+  }
+  .f-s-1rem { font-size: 1.2rem; }
+  .section-2-dim { height: 35vw; }
+  .section-1::before { height: 85vh; }
+  .gif {
+      height: 220px;
+      width: auto;
+      border-radius: 100%;
+  }
+  .section-2-dim { height: 73vw; }
+}
+
+@media only screen and (max-width: 750px)
+{
+  .f-s-2rem {
+      font-size: 4rem;
+      font-weight: 550;
+  }
+  .f-s-1rem { font-size: 1.5rem; }
+}
+
+@media only screen and (max-width: 850px) 
+{
+  .f-s-2rem {
+      font-size: 3rem;
+      font-weight: 550;
+  }
+  .f-s-1rem { font-size: 1.2rem; }
+  .section-2-dim { height: 35vw; }
+  .section-1::before { height: 85vh; }
+  .gif {
+      height: 280px;
+      width: auto;
+      border-radius: 50%;
+  }
+  .section-2-dim { height: 68vw; }
+}
+
+@media only screen and (max-width: 550px) {
+  .dis-sec-2 { text-align: center; }
+  .f-s-2rem {
+      font-size: 2rem;
+      font-weight: 550;
+  }
+  .f-s-1rem { font-size: 1.1rem; }
+  .section-2-dim { height: 80vw; }
+  .gif {
+      height: 200px;
+      width: auto;
+      border-radius: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px)
+{
+  .f-s-2rem {
+      font-size: 2rem;
+      font-weight: 550;
+  }
+  .f-s-1rem { font-size: 1.1rem; }
+  .section-2-dim { height: 90vw; }
+  .gif {
+      height: 200px;
+      width: auto;
+      border-radius: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 340px) {
+  .f-s-2rem { font-size: 2rem; font-weight: 550; }
+  .f-s-1rem { font-size: 1.1rem; }
+  .section-2-dim { height: 45vw; }
+}
+
+@media only screen and (min-width: 950px)
+{
+  .dis-sec-2 { display: flex; text-align: center; justify-content: center;}
+  .gif-2-dim { height: 30vh; width: auto; }
+  .gif {
+      height: 250px;
+      width: auto;
+      border-radius: 100%;
+  }
+  .m-l-200px  { margin-left: 170px; }
+  .m-r-200px  { margin-right: 200px; }
+  .m-t-50px {
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+  .section-2-dim {
+      height: 60vh;
+      width: 100%;
+  }
+  .f-s-2rem   { font-size: 3rem; }
+}
+
+@media only screen and (min-width: 850px)
+{
+  .f-s-2rem {
+      font-size: 3.5rem;
+      font-weight: 550;
+  }
+  .f-s-1rem { font-size: 1.5rem; }
+}
+
+.b-r-30px { border-radius: 30px; }
+
 @media screen and (max-width: 767px) {
     .nav-links {
       position: fixed;
@@ -9,31 +139,6 @@
       padding: 2rem;
       background-color: black;
       transition: .5s;
-    }
-
-    .intro{
-       margin-top: 70px;
-       margin-left: -30px; 
-    }
-    h1 {
-        font-size: 0px;
-    }
-    h3{
-        font-size: 10px;
-    }   
-    h4{
-        font-size: 10px;
-    }
-    .bo,
-    .bo2,
-    .bo3,
-    .bo4,
-    .bo5,
-    .bo6 {
-    width: 50px;
-    height: 50px;
-    margin: 20px 0;
-    margin-left: 5px;
     }
 
     .book-list{
@@ -208,3 +313,9 @@
       width: 450px;
     }
 }
+
+@media (max-width: 700px) {
+  .semester-card {
+      flex: 0 1 100%;
+      margin-right: 0;
+  }}

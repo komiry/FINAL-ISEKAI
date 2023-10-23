@@ -1,5 +1,106 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gif-2 {
+    
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: .5vw 3.2vw .5vw .5vw;
+}
+
+.m-t-50px {padding-top: 30px;}
+
+hr {
+    border: 0;
+    height: 10px;
+    background-color: #222222 !important;
+}
+
+.last-section {
+
+    text-align: center;
+    background-color: #030104;
+    color: white;
+    padding-top: 5vw;
+}
+
+
+.section-1::before {
+    height: 95vh; width: 500%;
+    z-index: -1;
+    margin: 0%;
+}
+
+.section-1
+{
+    height: 95vh;
+    margin-bottom: 0px;
+} 
+
+.music-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.music-box p {
+    margin: 0;
+}
+
+.play-button, .stop-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: color 0.3s; 
+}
+
+.play-button {
+    color: #007BFF; 
+}
+
+.play-button:hover {
+    color: #0056b3; 
+}
+
+.stop-button {
+    color: #FF0000; 
+}
+
+.stop-button:hover {
+    color: #CC0000; 
+}
+
+
+.section-2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #030104;
+    color: white;
+}
+
+
+.section-1-mid {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.website-name {
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+}
+
 body {
     background-image: url('./assets/anime-window.gif');
     background-size: cover;
@@ -18,59 +119,6 @@ body {
     border-radius: 8px;
 }
 
-.intro{
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-    color: black;
-    padding-left: 17%;
-    text-align: center;
-    margin-top: 100px;
-    justify-content: center;
-    margin-left: 8%;
-}
-
-.bo .bo2 {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-.bo5 {
-    width: 200px;
-    height: 200px;
-    float: right;
-}
-
-.bo,
-.bo2,
-.bo3,
-.bo4,
-.bo5,
-.bo6 {
-    width: 2in;
-    height: 2in;
-    margin: 20px 0;
-}
-
-span{
-    color: #f9004d;
-}
-
-h1 {
-    margin: 20px 0;
-    font-size: 75px;
-}
-
-h3 {
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-
-h4 {
-    letter-spacing: 2px;
-    font-size: 20px;
-}
-
 .container img {
     display: block;
     margin: 20px auto;
@@ -86,7 +134,7 @@ h4 {
 
 .menu-toggle {
     cursor: pointer;
-    z-index: 1000; /* Ensure it's on top of other elements */
+    z-index: 1000; 
 }
 
 .bar {
@@ -128,7 +176,7 @@ h4 {
     background-color: #202225;
     transition: 0.5s;
     padding: 50px 0;
-    z-index: 1000; /* Ensure it's on top */
+    z-index: 1000; 
 }
 
 .slide-in-menu li {
@@ -364,13 +412,6 @@ tr:hover {
     text-decoration: none;
     color: #007BFF;
     font-weight: bold;
-}
-
-@media (max-width: 700px) {
-    .semester-card {
-        flex: 0 1 100%;
-        margin-right: 0;
-    }
 }
 
 .project-card {

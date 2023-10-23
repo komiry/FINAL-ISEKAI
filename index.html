@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/loading.gif" type="image/x-icon">
     <title>Anime</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 </head>
 <body>
     <div class="header">
@@ -31,16 +40,65 @@
         <li><a href="contact.html">CONTACTS</a></li>
         <li><a href="projects.html">PROJECTS</a></li>
     </ul>
-    <div class="intro">
-        <h4>WELCOME!</h4>
-        <h1>YOU'RE BEING <span>ISEKAI!</span></h1>
-        <h3>YOU'RE IN OUR WORLD NOW!!!</h3>
-        <img src="./assets/fighting.gif"class="bo">
-        <img src="./assets/chika1.gif"class="bo2">
-        <img src="./assets/kana.gif" class="bo3">
-        <img src="./assets/ggg.gif" class="bo4">
-        <img src="./assets/dance.gif" class="bo5">
-    </div> 
+    <div class="section-1">
+        <nav class="navbar">
+            <div class="container-fluid">
+            </div>
+        </nav>        
+
+        <div class="section-1-mid container">
+            <div class="f-s-2rem"> WELCOME IN OUR WORLD</div>
+            <div class="f-s-2rem"><span class="typed-text"></span></div>
+            <div class="f-s-1rem"> (just kidding LOL)</div>            
+        </div>
+
+        <div class="music-box">
+            <p>Wanna listen to a devilish song while browsing this page?</p>
+            <button class="play-button" onclick="playMusic('your-audio-id')">
+                <i class="fas fa-play"></i>
+            </button>
+            <button class="stop-button" onclick="stopMusic('your-audio-id')">
+                <i class="fas fa-stop"></i>
+            </button>
+        </div>
+</div>
+</div>
+    <div class="section-2 section-2-dim dis-sec-2" style="margin-bottom: 40px;">
+        <div class="m-t-50px" style="padding-left: auto;">
+            <div class="f-s-2rem ">Maybe your wondering... Is this a blog?</div>
+            <div class="f-s-1rem">I dont know, just ask our Chika Fujiwara
+            </div>
+        </div>
+        <div class="m-t-50px m-l-200px" style="text-align: center; background-color: black;">
+            <img class="gif" src="./assets/chika1.gif" alt="">
+        </div>
+    </div>
+
+    <div class="section-2 section-2-dim dis-sec-2"  style="margin-bottom: 40px;"> 
+        <div class="m-t-50px" style="padding-left: auto;">
+            <div class="f-s-2rem ">But one thing is for sure. ☺️</div>
+            <div class="f-s-1rem">We're gonna show our top list and underrated animes at all time!</div>
+        </div>
+        <div class="m-t-50px m-l-200px" style="text-align: center; background-color: black;">
+            <img class="gif" src="./assets/kana.gif" alt="">
+        </div>
+    </div>
+
+    <div class="section-2 section-2-dim dis-sec-2"  style="margin-bottom: 40px;">
+        <div class="m-t-50px" style="padding-left: auto;">
+            <div class="f-s-2rem ">Di ko na alam sasabihin ko</div>
+            <div class="f-s-1rem">uhmm gusto ko na matulog pero bat ako nagcocode habang nasa work😥</div>
+        </div>
+        <div class="m-t-50px m-l-200px" style="text-align: center; background-color: black;">
+            <img class="gif" src="./assets/ggg.gif" alt="">
+        </div>
+    </div>
+
+    <audio id="your-audio-id" controls>
+        <source src="./music/an2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <script src="script.js"></script>
 </body>
 </html>

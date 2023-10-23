@@ -1,3 +1,15 @@
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const typed = new Typed(".typed-text", {
+      strings: [" You're being Isekai!!"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true,
+    });
+  });
+
+
 function openSlideInMenu() {
     const slideInMenu = document.querySelector('.slide-in-menu');
     slideInMenu.style.left = '0';
