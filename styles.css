@@ -1,5 +1,112 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+<<<<<<< Updated upstream
+=======
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gif-2 {
+    
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: .5vw 3.2vw .5vw .5vw;
+}
+
+.m-t-50px {padding-top: 30px;}
+
+hr {
+    border: 0;
+    height: 10px;
+    background-color: #222222 !important;
+}
+
+.last-section {
+
+    text-align: center;
+    background-color: #030104;
+    color: white;
+    padding-top: 5vw;
+}
+
+
+.section-1::before {
+    height: 95vh; width: 500%;
+    z-index: -1;
+    margin: 0%;
+}
+
+.section-1
+{
+    height: 95vh;
+    margin-bottom: 0px;
+    font-size: 40px;
+} 
+
+.music-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.music-box p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.play-button, .stop-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: color 0.3s; 
+}
+
+.play-button {
+    color: #007BFF; 
+}
+
+.play-button:hover {
+    color: #0056b3; 
+}
+
+.stop-button {
+    color: #FF0000; 
+}
+
+.stop-button:hover {
+    color: #CC0000; 
+}
+
+
+.section-2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #030104;
+    color: white;
+    font-size: 30px;
+}
+
+
+.section-1-mid {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.website-name {
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+}
+
+>>>>>>> Stashed changes
 body {
     background-image: url('./assets/anime-window.gif');
     background-size: cover;
@@ -90,7 +197,7 @@ h5{
 
 h6{
     color: black;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .container img {
@@ -254,6 +361,7 @@ table {
     border-spacing: 0;
     border: 2px solid #333;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .container td{
@@ -381,6 +489,7 @@ tr:hover {
     .header{
         padding-right: 900px;
         margin-right: 900px;
+        width: 700px;
     }
   
     .intro{
@@ -422,11 +531,11 @@ tr:hover {
     table {
         width: 300px;
         font-size: 20px;
-        margin-left: 80px;
+        margin-left: 220px;
     }
     
     td{
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .subject-image{
@@ -740,7 +849,7 @@ tr:hover {
       }
   }
   
-  @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .nav-links {
         position: fixed;
         top: 0.1rem;
@@ -791,7 +900,7 @@ tr:hover {
       }
   
       table {
-          margin-left: 45px;
+          margin-left: 48px;
           width: 900px;
           margin-bottom: 20px;
           font-size: 20px;
@@ -823,10 +932,13 @@ tr:hover {
       .developer-image img{
           max-width: 150px;
       }
-  }
+}
 
-@media screen (min-width: 1025px){
-    table{
-        width: 900px;
+@media screen and (min-width: 1920px){
+    table {
+        width: 1000px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-left: 450px;
     }
 }
