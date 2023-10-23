@@ -119,61 +119,6 @@ body {
     border-radius: 8px;
 }
 
-.intro{
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-    color: black;
-    padding-left: 10%;
-    text-align: center;
-    margin-top: 100px;
-    justify-content: center;
-    margin-left: 8%;
-}
-
-.bo .bo2 {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-.bo5 {
-    width: 200px;
-    height: 200px;
-    float: right;
-}
-
-.bo,
-.bo2,
-.bo3,
-.bo4,
-.bo5,
-.bo6 {
-    width: 2in;
-    height: 2in;
-    margin: 20px 0;
-}
-
-span{
-    color: #f9004d;
-}
-
-.intro h1 {
-    margin: 20px 0;
-    font-size: 70px;
-}
-
-.intro h3 {
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-
-.intro h4 {
-    letter-spacing: 2px;
-    font-size: 20px;
-}
-
-/*About*/
-
 .container img {
     display: block;
     margin: 20px auto;
@@ -289,7 +234,6 @@ footer a {
     font-size: 24px;
 }
 
-/*Contacts*/
 .developer-card {
     display: flex;
     align-items: center;
